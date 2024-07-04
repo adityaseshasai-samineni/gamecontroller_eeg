@@ -1,4 +1,4 @@
-# gamecontroller_eeg
+# Game-controller EEG
 
 ### This project aims to build a model for a game controller that uses brain signals as input.
 
@@ -11,12 +11,12 @@
 
 ## Dataset used 
   EEG motor/imagery dataset [[1]](#1).
-## classifiers used 
+## Classifiers used 
   - Support Vector Classifier from SkLearn.
   - Random Forest Classifier from Sklearn.
-## methodology
+## Methodology
 ![methodology image](methodology.png)
-## results
+## Results
 | Metric                              | SVM (real) | SVM (imaginary) | RF (real) | RF (imaginary) |
 |-------------------------------------|------------|-----------------|-----------|----------------|
 | RAW (actual accuracy)               | 87         | 83              | 81        | 78             |
